@@ -1,5 +1,5 @@
 function NotFound() {
-  return <h1>NotFound</h1>;
+  return <main className="main container">NotFound</main>;
 }
 
 export default NotFound;

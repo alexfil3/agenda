@@ -1,5 +1,5 @@
 function SignIn() {
-  return <h1>SignUp</h1>;
+  return <main className="main container">SignUp</main>;
 }
 
 export default SignIn;

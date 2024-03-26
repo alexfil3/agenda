@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="cloud" viewBox="0 0 24 24">
+        <path
+            d="M3 13.6493C3 16.6044 5.41766 19 8.4 19h8.1c2.4853 0 4.5-2.0161 4.5-4.5031 0-1.8466-1.1107-3.552-2.7-4.2469C18.1317 7.32251 15.684 5 12.6893 5 10.3514 5 8.34694 6.48637 7.5 8.5 4.8 8.9375 3 11.2001 3 13.6493Z"
+            stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </symbol>
+    <symbol id="burger-open" viewBox="0 0 64 64" xml:space="preserve"
+        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
+        <path style="fill:none" d="M0 0h1280v800H0z" transform="translate(-1024 -192)" />
+        <path style="fill-rule:nonzero" d="M103.288 8.535h212.447v34.133H103.288z"
+            transform="matrix(.2251 0 0 .17555 -15.24765192 42.35286814)" />
+        <path style="fill-rule:nonzero" d="M103.288 8.535h212.447v34.133H103.288z"
+            transform="matrix(.2251 0 0 .17555 -15.0379454 27.431458)" />
+        <path style="fill-rule:nonzero" d="M103.288 8.535h212.447v34.133H103.288z"
+            transform="matrix(.2251 0 0 .17555 -15.0379454 12.51004786)" />
+    </symbol>
+    <symbol id="burger-close" viewBox="0 -0.5 21 21" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="M12.0183 10 21 18.554 19.48065 20 10.5 11.446 1.5183 20 0 18.554 8.98065 10 0 1.446 1.5183 0 10.5 8.554 19.48065 0 21 1.446z"
+            fill="#000" fill-rule="evenodd" />
+    </symbol>
+</svg>

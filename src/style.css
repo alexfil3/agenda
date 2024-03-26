@@ -1,5 +1,41 @@
-body {
+* {
     margin: 0;
-    border: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+a {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    padding-right: 24px;
+    padding-left: 24px;
+    border: 2px solid grey;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.main {
+    height: 800px;
+    padding-top: 68px;
+    border: 2px solid red;
 }

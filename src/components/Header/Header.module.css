@@ -1,8 +1,55 @@
 .header {
+    position: fixed;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
     border-bottom: 2px solid black;
-    padding: 0px 24px;
-    /* background-color: blue; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.svgWrapper {
+    width: 36px;
+    height: 36px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .nav {
+    gap: 64px;
+  }
+}
+
+.authLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.burgerWrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.button {
+    height: 36px;
+}
+
+@media screen and (min-width: 1024px) {
+  .button {
+    display: none;
+  }
 }
