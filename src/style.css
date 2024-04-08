@@ -23,7 +23,7 @@ ul {
     border: 2px solid grey;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 769px) {
   .container {
     padding-right: 48px;
     padding-left: 48px;

@@ -5,7 +5,7 @@ import DesktopMenu from "../DesktopMenu/DesktopMenu";
 import MobileMenu from "../MobileMenu/MobileMenu";
 import css from "./Header.module.css";
 
-function Header() {
+function Header({ isLogin, logOut }) {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
 
   const handleBurgerToggle = () => {
@@ -34,13 +34,19 @@ function Header() {
       <div className={css.burgerWrapper}>
         <nav className={css.nav}>
           <DesktopMenu />
-          <NavLink
-            to="/signup"
-            className={css.authLink}
-            onClick={handleNavLinkClick}
-          >
-            Sign Up
-          </NavLink>
+          {isLogin ? (
+            <NavLink to="/" className={css.authLink} onClick={logOut}>
+              Log out
+            </NavLink>
+          ) : (
+            <NavLink
+              to="/signup"
+              className={css.authLink}
+              onClick={handleNavLinkClick}
+            >
+              Sign Up
+            </NavLink>
+          )}
         </nav>
         {isOpenMenu ? (
           <button className={css.button}>
